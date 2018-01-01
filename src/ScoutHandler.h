@@ -10,7 +10,6 @@
 #define LIB_PINOCCIO_SCOUTHANDLER_H_
 
 #include <Pinoccio.h>
-#include <ScoutHandler.h>
 #include "util/StringBuffer.h"
 
 namespace pinoccio {
@@ -27,7 +26,7 @@ namespace pinoccio {
       void setVerbose(bool flag);
       StringBuffer report(StringBuffer& report);
       uint32_t seen;
-      
+
       bool isBridged;
       StringBuffer bridge;
       void setBridged(bool flag);

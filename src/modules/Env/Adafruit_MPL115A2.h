@@ -17,6 +17,9 @@
 */
 /**************************************************************************/
 
+#ifndef _ADAFRUIT_MPL115A2_H_
+#define _ADAFRUIT_MPL115A2_H_
+
 #if ARDUINO >= 100
  #include "Arduino.h"
 #else
@@ -65,3 +68,5 @@ class Adafruit_MPL115A2{
 
   void readCoefficients(void);
 };
+
+#endif // _ADAFRUIT_MPL115A2_H_
